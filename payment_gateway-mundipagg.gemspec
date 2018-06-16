@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
 
   s.require_paths = ["lib"]
   s.files         = `git ls-files`.split("\n")
-  s.required_ruby_version = '>= 2.3.4'
+  s.required_ruby_version = '>= 2.3.3'
 
   s.add_runtime_dependency("http", "~> 3.0")
   s.add_runtime_dependency("activesupport", ">=3.0")
